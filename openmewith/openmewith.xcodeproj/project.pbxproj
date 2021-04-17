@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6477D7D6262AF192002F5A83 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6477D7D5262AF192002F5A83 /* main.swift */; };
+		6477D7E1262AF1FF002F5A83 /* OpenMeWithSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 6477D7E0262AF1FF002F5A83 /* OpenMeWithSDK */; };
+		6477D7E4262AF20E002F5A83 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 6477D7E3262AF20E002F5A83 /* ArgumentParser */; };
+		6477D80D262AF2D7002F5A83 /* OpenMeWithPane.h in Headers */ = {isa = PBXBuildFile; fileRef = 6477D80C262AF2D7002F5A83 /* OpenMeWithPane.h */; };
+		6477D80F262AF2D7002F5A83 /* OpenMeWithPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 6477D80E262AF2D7002F5A83 /* OpenMeWithPane.m */; };
+		6477D811262AF2D7002F5A83 /* OpenMeWithPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 6477D810262AF2D7002F5A83 /* OpenMeWithPane.tiff */; };
+		6477D814262AF2D7002F5A83 /* OpenMeWithPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6477D812262AF2D7002F5A83 /* OpenMeWithPane.xib */; };
+		6477D81C262AF2E4002F5A83 /* OpenMeWithSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 6477D81B262AF2E4002F5A83 /* OpenMeWithSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6477D7D0262AF192002F5A83 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6477D7D2262AF192002F5A83 /* openmewith */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = openmewith; sourceTree = BUILT_PRODUCTS_DIR; };
+		6477D7D5262AF192002F5A83 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6477D7DC262AF1B5002F5A83 /* OpenMeWithSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OpenMeWithSDK; path = ../OpenMeWithSDK; sourceTree = "<group>"; };
+		6477D80A262AF2D7002F5A83 /* OpenMeWithPane.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenMeWithPane.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		6477D80C262AF2D7002F5A83 /* OpenMeWithPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenMeWithPane.h; sourceTree = "<group>"; };
+		6477D80E262AF2D7002F5A83 /* OpenMeWithPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenMeWithPane.m; sourceTree = "<group>"; };
+		6477D810262AF2D7002F5A83 /* OpenMeWithPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = OpenMeWithPane.tiff; sourceTree = "<group>"; };
+		6477D813262AF2D7002F5A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/OpenMeWithPane.xib; sourceTree = "<group>"; };
+		6477D815262AF2D7002F5A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6477D7CF262AF192002F5A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6477D7E4262AF20E002F5A83 /* ArgumentParser in Frameworks */,
+				6477D7E1262AF1FF002F5A83 /* OpenMeWithSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6477D807262AF2D7002F5A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6477D81C262AF2E4002F5A83 /* OpenMeWithSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6477D7C9262AF192002F5A83 = {
+			isa = PBXGroup;
+			children = (
+				6477D7DC262AF1B5002F5A83 /* OpenMeWithSDK */,
+				6477D7D4262AF192002F5A83 /* openmewith */,
+				6477D80B262AF2D7002F5A83 /* OpenMeWithPane */,
+				6477D7D3262AF192002F5A83 /* Products */,
+				6477D7DF262AF1FF002F5A83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6477D7D3262AF192002F5A83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6477D7D2262AF192002F5A83 /* openmewith */,
+				6477D80A262AF2D7002F5A83 /* OpenMeWithPane.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6477D7D4262AF192002F5A83 /* openmewith */ = {
+			isa = PBXGroup;
+			children = (
+				6477D7D5262AF192002F5A83 /* main.swift */,
+			);
+			path = openmewith;
+			sourceTree = "<group>";
+		};
+		6477D7DF262AF1FF002F5A83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6477D80B262AF2D7002F5A83 /* OpenMeWithPane */ = {
+			isa = PBXGroup;
+			children = (
+				6477D80C262AF2D7002F5A83 /* OpenMeWithPane.h */,
+				6477D80E262AF2D7002F5A83 /* OpenMeWithPane.m */,
+				6477D810262AF2D7002F5A83 /* OpenMeWithPane.tiff */,
+				6477D812262AF2D7002F5A83 /* OpenMeWithPane.xib */,
+				6477D815262AF2D7002F5A83 /* Info.plist */,
+			);
+			path = OpenMeWithPane;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6477D805262AF2D7002F5A83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6477D80D262AF2D7002F5A83 /* OpenMeWithPane.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6477D7D1262AF192002F5A83 /* openmewith */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6477D7D9262AF192002F5A83 /* Build configuration list for PBXNativeTarget "openmewith" */;
+			buildPhases = (
+				6477D7CE262AF192002F5A83 /* Sources */,
+				6477D7CF262AF192002F5A83 /* Frameworks */,
+				6477D7D0262AF192002F5A83 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6477D7DE262AF1FB002F5A83 /* PBXTargetDependency */,
+			);
+			name = openmewith;
+			packageProductDependencies = (
+				6477D7E0262AF1FF002F5A83 /* OpenMeWithSDK */,
+				6477D7E3262AF20E002F5A83 /* ArgumentParser */,
+			);
+			productName = openmewith;
+			productReference = 6477D7D2262AF192002F5A83 /* openmewith */;
+			productType = "com.apple.product-type.tool";
+		};
+		6477D809262AF2D7002F5A83 /* OpenMeWithPane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6477D816262AF2D7002F5A83 /* Build configuration list for PBXNativeTarget "OpenMeWithPane" */;
+			buildPhases = (
+				6477D805262AF2D7002F5A83 /* Headers */,
+				6477D806262AF2D7002F5A83 /* Sources */,
+				6477D807262AF2D7002F5A83 /* Frameworks */,
+				6477D808262AF2D7002F5A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6477D81A262AF2DF002F5A83 /* PBXTargetDependency */,
+			);
+			name = OpenMeWithPane;
+			packageProductDependencies = (
+				6477D81B262AF2E4002F5A83 /* OpenMeWithSDK */,
+			);
+			productName = OpenMeWithPane;
+			productReference = 6477D80A262AF2D7002F5A83 /* OpenMeWithPane.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6477D7CA262AF192002F5A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6477D7D1262AF192002F5A83 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6477D809262AF2D7002F5A83 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 6477D7CD262AF192002F5A83 /* Build configuration list for PBXProject "openmewith" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6477D7C9262AF192002F5A83;
+			packageReferences = (
+				6477D7E2262AF20E002F5A83 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+			);
+			productRefGroup = 6477D7D3262AF192002F5A83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6477D7D1262AF192002F5A83 /* openmewith */,
+				6477D809262AF2D7002F5A83 /* OpenMeWithPane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6477D808262AF2D7002F5A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6477D811262AF2D7002F5A83 /* OpenMeWithPane.tiff in Resources */,
+				6477D814262AF2D7002F5A83 /* OpenMeWithPane.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6477D7CE262AF192002F5A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6477D7D6262AF192002F5A83 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6477D806262AF2D7002F5A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6477D80F262AF2D7002F5A83 /* OpenMeWithPane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6477D7DE262AF1FB002F5A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 6477D7DD262AF1FB002F5A83 /* OpenMeWithSDK */;
+		};
+		6477D81A262AF2DF002F5A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 6477D819262AF2DF002F5A83 /* OpenMeWithSDK */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6477D812262AF2D7002F5A83 /* OpenMeWithPane.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6477D813262AF2D7002F5A83 /* Base */,
+			);
+			name = OpenMeWithPane.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6477D7D7262AF192002F5A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6477D7D8262AF192002F5A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6477D7DA262AF192002F5A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E5DU3FA699;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6477D7DB262AF192002F5A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E5DU3FA699;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6477D817262AF2D7002F5A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E5DU3FA699;
+				INFOPLIST_FILE = OpenMeWithPane/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielemargutti.OpenMeWithPane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		6477D818262AF2D7002F5A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E5DU3FA699;
+				INFOPLIST_FILE = OpenMeWithPane/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielemargutti.OpenMeWithPane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6477D7CD262AF192002F5A83 /* Build configuration list for PBXProject "openmewith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6477D7D7262AF192002F5A83 /* Debug */,
+				6477D7D8262AF192002F5A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6477D7D9262AF192002F5A83 /* Build configuration list for PBXNativeTarget "openmewith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6477D7DA262AF192002F5A83 /* Debug */,
+				6477D7DB262AF192002F5A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6477D816262AF2D7002F5A83 /* Build configuration list for PBXNativeTarget "OpenMeWithPane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6477D817262AF2D7002F5A83 /* Debug */,
+				6477D818262AF2D7002F5A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6477D7E2262AF20E002F5A83 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6477D7DD262AF1FB002F5A83 /* OpenMeWithSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenMeWithSDK;
+		};
+		6477D7E0262AF1FF002F5A83 /* OpenMeWithSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenMeWithSDK;
+		};
+		6477D7E3262AF20E002F5A83 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6477D7E2262AF20E002F5A83 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+		6477D819262AF2DF002F5A83 /* OpenMeWithSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenMeWithSDK;
+		};
+		6477D81B262AF2E4002F5A83 /* OpenMeWithSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenMeWithSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6477D7CA262AF192002F5A83 /* Project object */;
+}
